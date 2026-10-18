@@ -9,11 +9,11 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 
 /**
- * @title ZigSwapEscrow
+ * @title TradelockEscrow
  * @dev A secure escrow contract for NFT OTC swaps on Base network
  * Supports both NFT-to-NFT and NFT-to-Token swaps
  */
-contract ZigSwapEscrow is ERC721Holder, Ownable, ReentrancyGuard {
+contract TradelockEscrow is ERC721Holder, Ownable, ReentrancyGuard {
 
     
     // Enum for swap types

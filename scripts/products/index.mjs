@@ -1,2 +1,2 @@
-import zigswap from './zigswap.mjs';
-export default [zigswap];
+import tradelock from './tradelock.mjs';
+export default [tradelock];

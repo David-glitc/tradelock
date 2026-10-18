@@ -1,5 +1,5 @@
 {
-  "name": "zigswap",
+  "name": "tradelock",
   "private": true,
   "type": "module",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "description": "Escrow an NFT for BOT or another NFT. Accept, cancel, or recover an expired offer onchain.",
   "license": "MIT",
-  "repository": "https://github.com/David-glitc/zigswap",
-  "homepage": "https://zigswap-botchain.davidopuene8.workers.dev"
+  "repository": "https://github.com/David-glitc/tradelock",
+  "homepage": "https://tradelock-botchain.davidopuene8.workers.dev"
 }
