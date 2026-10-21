@@ -1,5 +1,5 @@
 export default {
- slug:'tradelock',name:'Tradelock',repo:'tradelock',contract:'TradelockEscrow',color:'#99e2c2',eyebrow:'NFT ESCROW',symbol:'⇄',
+ slug:'tradelock',vercel:'tradelockbot',assets:['BOT'],name:'Tradelock',repo:'tradelock',contract:'TradelockEscrow',color:'#99e2c2',eyebrow:'NFT ESCROW',symbol:'⇄',
  line:'Your NFT. Your terms.',
  description:'Escrow an NFT for BOT or another NFT. Accept, cancel, or recover an expired offer onchain.',
  abis:['TradelockEscrow'],
