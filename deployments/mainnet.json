@@ -1,0 +1,42 @@
+{
+  "chainId": 677,
+  "network": "mainnet",
+  "deployer": "0x766d0d810eCF822e02df47CDb5A389777f291895",
+  "local": false,
+  "contracts": {
+    "TradelockEscrow": "0xcf82ea5a8f6eacf96a5edb564f31627bdba33713"
+  },
+  "actions": {
+    "deploy:TradelockEscrow": {
+      "hash": "0x0c3ad11e6f732cd20257aa489518cc7b86fba73c55f02f49fb7e06c06c57f5c8",
+      "receipt": {
+        "transactionHash": "0x0c3ad11e6f732cd20257aa489518cc7b86fba73c55f02f49fb7e06c06c57f5c8",
+        "contractAddress": "0xcf82ea5a8f6eacf96a5edb564f31627bdba33713",
+        "blockNumber": "27571969",
+        "gasUsed": "1433601",
+        "gasPrice": "20000000000"
+      }
+    }
+  },
+  "gasSpentWei": "284775900000000000",
+  "ready": true,
+  "infrastructure": {
+    "USDT": "0xaBabc7Ddc03e501d190C676BF3d92ef0e6e87a3C",
+    "WBOT": "0xD5452816194a3784dBa983426cCe7c122F4abd30",
+    "router": "0x07032d47A1b9f8460cBeE9dC17c1d3E438693929",
+    "quoter": "0x034A705b36067cff99ABf5C662Be881cBd8d0176",
+    "fee": 3000
+  },
+  "launched": {
+    "tradelock": "2026-10-22T10:03:24.644Z"
+  },
+  "sourceHashes": {
+    "TradelockEscrow": "0x1e5d826a32318df5b8114895730d4eef1c775392f1f531c41e406c26c4f218f9"
+  },
+  "records": {
+    "hedgerowReferenceBasket": {
+      "vault": "0x94B8d2f320b4E96Fb3FA5c040E8F272B18fC31A9",
+      "tx": "0x2c24e6e1a4f01297f0ea0106be58b14c75698f0625fd45597887c83316707e21"
+    }
+  }
+}
