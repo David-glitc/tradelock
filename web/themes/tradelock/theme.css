@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
+/* Tradelock: a hard-edged deal desk. Thick black rules, offset shadows, acid lime marks what is locked. */
+:root{--scheme:light;--bg:#F1EEE2;--surface:#FFFFFF;--surface-2:#E6E1CF;--input-bg:#FFFFFF;--tile:#E6E1CF;
+ --ink:#111111;--ink-2:#3D3B34;--line:#111111;--line-strong:#111111;
+ --accent:#C5F23A;--accent-hover:#B2DE20;--accent-ink:#111111;--accent-text:#3B5600;--link:#111111;--focus:#1F4FD1;
+ --danger:#C0261D;--danger-bg:#FBE3E0;--danger-text:#A3201A;--scrim:rgba(17,17,17,.5);
+ --radius-sm:0;--radius-md:0;--radius-lg:0;--radius-btn:0;--radius-pill:0;--border-w:2px;
+ --shadow-1:5px 5px 0 #111111;--shadow-2:10px 10px 0 #111111;--shadow-btn:3px 3px 0 #111111;
+ --font-display:'Unbounded',system-ui,sans-serif;--font-body:'Work Sans',system-ui,sans-serif;--font-label:'Work Sans',system-ui,sans-serif;--font-mono:'JetBrains Mono',ui-monospace,monospace;
+ --display-weight:700;--display-tracking:-0.03em;--display-case:none;--label-tracking:.14em}
+/* Lime highlighter on headings, heavy boxed blocks, mono addresses. */
+h1{font-size:clamp(2.2rem,5vw,3.9rem);line-height:1.04}
+.band>h2{display:table;padding:2px 10px;background:var(--accent);box-shadow:4px 4px 0 var(--ink)}
+.eyebrow{color:var(--ink);background:var(--surface);border:2px solid var(--ink);padding:3px 8px}
+@media(min-width:861px){.hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.hero-art{border:2px solid var(--ink);background:var(--surface);box-shadow:var(--shadow-2);padding:24px}
+.steps li:before{display:inline-block;padding:2px 8px;background:var(--ink);color:var(--accent)}
+.features div{border-left:0;border:2px solid var(--ink);background:var(--surface);padding:18px;box-shadow:var(--shadow-1)}
+.facts{border:2px solid var(--ink);background:var(--surface);padding:4px 20px}
+.facts div{border-bottom-width:2px}
+.launch{background:var(--accent)}
+.launch.pending{background:var(--surface)}
+.launch span{color:var(--ink)}
+.chain-badge{border:2px solid var(--ink)}
+.cta-band{background:var(--accent);border-color:var(--ink);box-shadow:var(--shadow-2)}
+.cta-band p{color:var(--ink)}
+.cta-band a.button.primary{background:var(--ink);color:var(--accent);border-color:var(--ink)}
+.cta-band a.button.primary:hover{background:#2A2A2A}
+/* Lime is 1.1:1 against the page, so every edge that must read is ink, never lime. */
+button.primary,a.button.primary,.grid button[aria-pressed=true]{border-color:var(--ink)}
+.launch{border-color:var(--ink)}
+.basket span{border-top-color:var(--ink)}
