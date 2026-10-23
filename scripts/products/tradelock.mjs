@@ -1,6 +1,7 @@
 export default {
  slug:'tradelock',vercel:'tradelockbot',assets:['BOT'],name:'Tradelock',repo:'tradelock',contract:'TradelockEscrow',color:'#99e2c2',eyebrow:'NFT ESCROW',symbol:'⇄',
  line:'Your NFT. Your terms.',
+ app:{title:'Offer book',line:'Every NFT here is locked in escrow until a trade fills or it returns.',layout:'desk'},
  description:'Escrow an NFT for BOT or another NFT. Accept, cancel, or recover an expired offer onchain.',
  abis:['TradelockEscrow'],
  contracts:['src/TradelockEscrow.sol'],tests:['test/Tradelock.t.sol'],
